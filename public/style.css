@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(60deg,#ececec, #d4d9d1);
+}
+
+.app-container{
+    background: #f8f8f8;
+    width: 40%;
+    height: 630px;
+    border-radius: 70px;
+    margin:  10px auto;
+}
+
+.app-header{
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+    color: #9399a1;
+}
+.app-data-container{
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+}
+.app-data-val{
+    background: #ffffff;
+    border: none;
+    margin: 10px auto;
+    width: 70%;
+    height : 40px;
+    border-radius: 40px 0px 0px 40px;
+    text-indent: 20px;
+}
+.app-data-val:focus{
+    border: 2px solid blue;
+}
+
+.data-select{
+    width: 20%;
+    height:40px;
+    border: none;
+    margin-left: 10px;
+    color: #9399a1;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.app-btn-calc{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #97c1e8, #488ece);
+
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+.app-notif{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #343a2b;
+    font-size: 15px;
+}
