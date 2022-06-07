@@ -8,10 +8,10 @@ function App(){
         var result;
         if(height > 0 && weight > 0){
             result = (weight * 10000)/ (height * height);
-            document.getElementById("app-result").innerHTML += `BMI index is  ${result}`;
+            document.getElementById("app-result").innerHTML = `BMI index is  ${result}`;
         }
         else{
-            document.getElementById("app-result").innerHTML += "Invalid values";
+            document.getElementById("app-result").innerHTML = "Invalid values";
         }
 
         
