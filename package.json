@@ -1,8 +1,9 @@
 {
-  "home":"https://github.com/devzone-v3it/basic-bmi-app",
-  "version":"0.1.0",
+  "home": "https://github.com/devzone-v3it/basic-bmi-app",
+  "version": "0.1.0",
   "dependencies": {
     "react": "^18.1.0",
+    "react-deploy": "^0.0.15",
     "react-dom": "^18.1.0",
     "react-scripts": "^5.0.1"
   },
